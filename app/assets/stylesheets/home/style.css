@@ -1,0 +1,12 @@
+html, body, #wrapper {
+  height: 100%;
+}
+
+#homeContainer .container-fluid {
+  padding-top: 15px;
+  background-color: antiquewhite;
+}
+
+#sidebar .list-group {
+  padding: 10px;
+}
