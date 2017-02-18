@@ -10,3 +10,7 @@ html, body, #wrapper {
 #sidebar .list-group {
   padding: 10px;
 }
+
+#mainScreen #sidebar #loadChat, #mainScreen #sidebar #refreshChat, #mainScreen #sidebar #clearChat {
+  cursor: pointer;
+}

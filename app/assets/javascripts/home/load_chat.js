@@ -5,6 +5,13 @@ WCR.LoadChat = function () {
 }
 WCR.LoadChat.prototype = {
   initialize:function () {
-    console.log("Success...");
+    this.loadChatClick();
+  },
+
+  loadChatClick:function () {
+    $('#mainScreen #sidebar #loadChat').unbind('click');
+    $('#mainScreen #sidebar #loadChat').click(function () {
+      console.log("load");
+    });
   }
 }
