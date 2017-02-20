@@ -10,7 +10,9 @@ WCR.ClearChat.prototype = {
   clearChatClick:function () {
     $('#mainScreen #sidebar #clearChat').unbind('click');
     $('#mainScreen #sidebar #clearChat').click(function () {
-      console.log("clear");
+      $('#mainScreen #chatScreen #chatData').empty();
+      $('#mainScreen #chatScreen #loadInput').removeClass('hidden');
+      $("#chatScreen #loadInput .file-input button.fileinput-remove-button").trigger("click");
     });
   }
 }
