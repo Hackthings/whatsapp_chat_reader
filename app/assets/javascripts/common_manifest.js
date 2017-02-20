@@ -1,5 +1,6 @@
-//= require common/jquery.min.js
-//= require common/bootstrap.min.js
+//= require common/jquery.min
+//= require common/bootstrap.min
+//= require common/fileinput.min
 
 //= require home/load_chat
 //= require home/clear_chat
